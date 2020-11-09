@@ -48,7 +48,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testMultipleOperatons(){
+    public void testMultipleOperations(){
         assertEquals(x * y + x, 40);
     }
 
