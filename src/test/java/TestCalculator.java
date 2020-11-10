@@ -52,4 +52,9 @@ public class TestCalculator {
         assertEquals(x * y + x, 40);
     }
 
+    @Test
+    public void testFindARemainder(){
+        assertEquals(x % y, 1);
+    }
+
 }
